@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Group.gd" type="Script" id=1]
+
+[sub_resource type="PhysicsMaterial" id=1]
+bounce = 1000.0
+absorbent = true
+
+[node name="Group" type="RigidBody2D"]
+position = Vector2( -3.05176e-005, 1.52588e-005 )
+physics_material_override = SubResource( 1 )
+gravity_scale = 0.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
